@@ -1,30 +1,69 @@
-# All-rounder desktop assistant
+# 🚀 Cledy - AI Desktop Assistant  
+*Your proactive, privacy-focused desktop AI for seamless workflow automation*  
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=10&url=https%3A%2F%2Fv0-all-rounder-desktop-assistant.vercel.app%2F
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/menev96687-9870s-projects/v0-all-rounder-desktop-assistant)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/Cd8SgWVCs0r)
+---
 
-## Overview
+## ✨ Features  
+- **Real-time Screen Analysis**  
+- **Ambient Audio Processing** (Opt-in)  
+- **Cross-Platform Support** (Windows/macOS/Linux)  
+- **Privacy-First** (Invisible in screen shares)  
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🛠️ Tech Stack  
+| Component       | Technology          |  
+|-----------------|---------------------|  
+| Frontend        | Electron + React    |  
+| AI Backend      | Python (PyTorch)    |  
+| Database        | SQLite (Local)      |  
+| Styling         | Tailwind CSS        |  
 
-## Deployment
+---
 
-Your project is live at:
+## 🏗️ Installation  
+### OS-Specific Setup  
+#### **Windows**  
+```powershell
+# Ensure Python 3.9+ is in PATH
+python --version
 
-**[https://vercel.com/menev96687-9870s-projects/v0-all-rounder-desktop-assistant](https://vercel.com/menev96687-9870s-projects/v0-all-rounder-desktop-assistant)**
+macOS/Linux
+bash
+brew install python  # macOS
+sudo apt install python3-pip  # Linux
+Generic Steps
+Clone the repo:
 
-## Build your app
+bash
+git clone https://github.com/pankajdev4u/all-rounder-ai-62.git  
+cd cledy  
+Install dependencies:
 
-Continue building your app on:
+bash
+npm install && pip install -r requirements.txt  
+🐞 Debugging Tips
+Common Issues
+Error	Solution
+ModuleNotFoundError	Run pip install -r requirements.txt --force-reinstall
+Electron failed to load	Delete node_modules + npm install
+Audio permissions denied	Grant mic access in OS settings
+Logs Location
+Windows: %APPDATA%/Cledy/logs.txt
 
-**[https://v0.dev/chat/projects/Cd8SgWVCs0r](https://v0.dev/chat/projects/Cd8SgWVCs0r)**
+macOS/Linux: ~/.config/Cledy/logs.txt
 
-## How It Works
+🗺️ Roadmap
+Q3 2025
+v1.0 Beta: Core screen/audio analysis
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Windows/MSI installer
+
+Q4 2025
+v1.2: macOS ARM64 support
+
+Plugin system for workflows
+
+2026
+v2.0: Cloud sync (Firebase)
+
