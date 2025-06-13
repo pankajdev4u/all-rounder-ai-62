@@ -1,4 +1,4 @@
-# 🚀 Cledy - AI Desktop Assistant  
+# 🚀 All Rounder - AI Desktop Assistant  
 *Your proactive, privacy-focused desktop AI for seamless workflow automation*  
 
 chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=10&url=https%3A%2F%2Fv0-all-rounder-desktop-assistant.vercel.app%2F
